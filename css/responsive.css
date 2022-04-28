@@ -1,0 +1,220 @@
+
+/*		Mobile Layout:320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width:320px) and (max-width:767px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	.mobi-nav {background: #000 none repeat scroll 0 0; cursor:pointer; height:30px; padding:0 5px;  position:absolute; left: 10px;  top:20px;width:35px;}		    
+	.mobi-nav div {background: #fff none repeat scroll 0 0; float: left; height: 3px; margin-top: 5px; width: 25px;}
+	.header-inner{ padding:0; margin-bottom:0}
+	.logo{ display:none}
+	.mobi-logo{display:block;float:right;width:150px; margin:20px 10px 0 0}
+	.mobi-logo img{float:left;}
+	.main-nav{float:left;width:100%;margin:0; display:none;}	
+	.main-nav ul{ padding:20px 0 0}
+	.main-nav li{width:100%;font-size:12px;line-height:15px; margin:10px 0; padding:0}
+	.main-nav li a{ display:block; width:100%; float:none; padding:0 20px; border:0; font-family: 'Roboto-Bold', sans-serif; font-size:18px}
+	.main-nav a:hover,.main-nav li.active a{ border:0px solid #fff; border-radius:0}
+	.search-btn{ float:left; width:100%; background:url(../images/search-icon.png) no-repeat 20px 3px; min-height:29px; margin:10px 0 50px}
+
+	.visit-wrap{width:100%}
+	.mobi-visit-wrap{ width:100%; display:block; float:left}	
+	.visit-info{ top:20px; width:100%; float:left; right:auto; left:20px}
+	.flex-control-nav{ bottom:38px!important; right:20px!important}
+	.visit-info h3{ font-size:26px}
+	.visit-slider{ padding:0px; width:100%}	
+	.integrated-wrap{ padding:0 20px 0; width:100%; float:left; margin:25px 0}
+	.report-link-wrap{ margin:30px 0 0}
+	.report-wrap{ width:100%}
+	.integrated-wrap{ font-size:22px; line-height:30px}
+	.integrated-wrap h3{ padding-right:65px}
+	.integrated-wrap span{ display:block}
+
+	.interim-content{ width:100%; padding:50px 20px; /* padding:0px 0 50px; */}
+	.sing-up{ margin:0}	
+	.hero-caption h2{ font-size:38px; line-height:40px}
+	.hero-caption{ width:100%; padding:0px}
+	.hero-caption{ margin:55px 0 0}
+	.mobi-footer{ display:block; float:left; width:100%; padding:60px 0 0}
+	.mobi-footer img{ float:left; width:100%}
+	.hero-wrap{ display:none}
+	.mobi-hero-wrap{ float:left; width:100%; display:block; position:relative;max-height: 320px; overflow: hidden;}
+	.hero-content-wrap{ width:100%}
+	.visit-info{ font-size:24px; line-height:30px}
+	.visit-mcc-btn{ margin-top:20px}
+	.inner-wrap{ padding:0;}
+	.footer-wrap{ position:relative; min-height:auto; background:#e2e2e2}
+	.footer-inner{ width:100%; padding:0}
+	.events-widget,.latest-widget,.contact-widget,.contact-information,.footer-submit-widget a,.copyright{ display:none}
+	.footer-submit-widget{ width:100%}
+	.footer-submit-widget{ width:100%}
+	.txt-field{ width:77%}	
+	.division-wrap{max-height:none !important; }
+	.hero-caption span{ font-size:30px}
+	.footer-submit-widget{ padding:0 20px}
+	.top-search{ float:left; width:100%; padding:20px;}
+	.search-txt{font-family: 'Roboto-Bold'; font-size:18px }
+	.view-invitation{ width:100%; line-height:52px}
+	.visit-slider li img{ min-height:220px}
+	
+	/* */
+	.release-wrap{ width:100%; padding:30px 20px 0;}
+	.interim-content h3{ font-size:34px}
+	.checkbox-wrap{ width:100%}
+	.filter-wrap { float: left;  width: 100%;}
+	.select-item{ width:100%}
+	.year-dropdown .select-item{ width:132px}
+
+	.archive-wrap{ width: 100%; background:#f5f5f5; padding:27px 15px;}
+	.filter-wrap{/*  width: 280px; padding-top: 30px; margin:0 auto; float: none; clear: both; */ /* overflow: hidden; */}
+	input.search-invitation{height: 35px;line-height: 33px;width: 280px;}
+	.checkbox-wrap{/* float: none; clear: both; width: 280px; margin:0 auto; */}
+	.report-link-wrap{ /* float: none; clear: both; width: 280px; margin:0 auto; padding-top: 30px */}
+
+
+	.filter-wrap{ padding-top: 30px;}
+	.filter-period{ width: 100%;}
+	.select-item{ max-width: 280px;}
+	.styled-dropdown{ float: left;}
+
+	.result-wrap{ display: none;}
+
+	.mobi_result{ display: block;}
+	.hero-caption{ padding:0 30px;}
+	
+	input.sub-btn{ height: 40px; line-height: 20px;}
+
+	.investor-sens .interim-content{padding:0px 0 50px;}
+
+
+}
+
+/*		Wide Mobile Layout:480px.
+------------------------------------------------------------
+*/
+
+@media only screen and (min-width:480px) and (max-width:767px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	.sing-up { margin: 0 0 0 30px;}
+	.visit-info{ font-size:30px; line-height:36px}
+	.visit-info{ top:65px}
+	.flex-control-nav{ bottom:50px!important; right:50px!important}
+	.hero-caption h2,.hero-caption span{ font-size:50px; line-height:55px}
+	.hero-caption{ margin-top:65px}
+	.visit-info{ top:25px}
+
+	.release-wrap{ padding: 30px 40px 0;}
+	
+}
+
+
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:768px) and (max-width:990px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	
+	.main-nav li{ margin:0 5px 0 0; font-size:13px}
+	.main-nav a{ padding:0 8px 2px}
+	.top-search{ width:165px}
+	.search-txt{ width:135px}
+	.logo{ position:absolute; right:10px}
+	.main-nav{ margin:20px 0}
+	
+	.hero-caption{ margin-top:60px}
+	.hero-caption h2{ font-size:42px}
+	.hero-caption p{ font-size:16px}
+	
+	.visit-info{ width:95%;font-size:20px; line-height:30px; top:30px}
+	.integrated-wrap{ padding-left:30px; font-size:20px; line-height:30px}
+	.report-link-wrap{ margin-top:40px}
+	.latest-widget{ width:260px}
+	
+	.integrated-wrap{ margin-top:34px}
+	.visit-mcc-btn{ margin-top:15px}	
+	.inner-wrap{ padding:0;}
+	.footer-wrap{ position:relative; min-height:550px; overflow: hidden;}
+	.footer-inner{ width:100%; padding-bottom:0}
+	.flex-control-nav{ bottom:30px!important}
+	.integrated-wrap h3{ padding-right:100px}
+	.integrated-wrap{ width:90%}	
+	.latest-widget{ width:240px}
+	.events-widget{ width:248px}
+	.latest-widget,.events-widget{ padding-right:15px}
+	.footer-submit-widget{ float:left}
+	.copyright{ bottom:-65px}
+	.footer-inner{ overflow:visible}
+
+	.logo{ margin-top: 20px; width: 150px}
+	.top-search{ display: none;}
+	
+	/* */
+/*	.checkbox-wrap{ width:35%}
+	.filter-wrap{ width:58%}
+	.styled-dropdown{ float:left}
+	.release-wrap{ width:65%}*/
+
+	.styled-dropdown{ float:left}
+	.checkbox-wrap{ width: 50%}
+	.release-wrap{ width: 100%}
+	.result-wrap{ width: 110%}
+	.archive-wrap{ float: left; width: 100%; padding-bottom: 20px;}
+	.result-details{ width: 445px}
+}
+
+/*		Tablet/iPad Layout:768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width:991px) and (max-width:1024px){
+	*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+	.logo {  float: right; margin: 20px 0 0; width: 165px;}
+	.search-txt{ width:auto}
+	.main-nav li{ margin-right:5px; font-size: 13px;}
+	.visit-info{ width:95%;font-size: 24px; line-height: 36px; top:30px}
+	.integrated-wrap{ padding-left:30px; font-size:24px; line-height:34px}
+	.report-link-wrap{ margin-top:40px}
+	.latest-widget{ width:260px}
+	.flex-control-nav{ bottom:45px!important; right:70px !important}
+	.main-nav a{ padding:0 8px 2px}
+	
+	
+	.interim-content .archive-wrap p{ font-size:15px; width:78%}
+
+	.release-wrap{ width: 75%;}
+	.checkbox-wrap{ width: 50%}
+	.result-details{ width: 445px}
+
+
+}
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1280px){
+	.flex-control-nav{ bottom:25%!important }
+	
+	
+	.logo { float:right; margin:20px 0 0; width: 140px;}
+	.search-txt{ width:auto}
+	.main-nav li{ margin-right:9px}
+	.main-nav a{ padding:0 8px 2px}
+	
+	
+}
+
+@media only screen and (min-width:1281px) and (max-width:1366px){
+	.flex-control-nav{ bottom:25%!important }
+	
+}
+@media only screen and (min-width:1367px) and (max-width:1440px){
+	.flex-control-nav{ bottom:32%!important }
+	
+}
+@media only screen and (min-width:1441px) and (max-width:1600px){
+	.flex-control-nav{ bottom:39%!important }
+	
+}
